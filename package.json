@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "build": "echo 'No build step required'"
+    "build": "npm install",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
